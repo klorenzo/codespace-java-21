@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SequencedCollections",
+            "request": "launch",
+            "mainClass": "com.mycompany.app.SequencedCollections",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "APIUpdates",
             "request": "launch",
             "mainClass": "com.mycompany.app.APIUpdates",
