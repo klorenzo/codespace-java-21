@@ -5,8 +5,17 @@
 
 package com.mycompany.app;
 
+import java.net.URI;
+import java.net.URL;
+
 public class App {
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws Exception {        
         System.out.println("Hello Remote World!");
+
+        URL url = URI.create("https://www.google.com/").toURL();
+
+        System.out.println(url.toString());
     }
+
 }
